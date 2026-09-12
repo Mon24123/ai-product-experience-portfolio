@@ -1,0 +1,22 @@
+main{display:flex;flex-direction:column}
+.hero{order:1}.manifesto{order:2}.practice-section{order:3;margin-top:0}.experience-section{order:4}.work-section{order:5}.about-section{order:6}.contact-section{order:7}
+.ai-evidence-board{background:#172020;transform:rotate(1.25deg)}
+.ai-evidence-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:0 20px}
+.ai-evidence-shot{height:210px;border:1px solid #fff;border-radius:12px;overflow:hidden;background:#fff}
+.ai-evidence-shot img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.ai-evidence-shot:nth-child(2){transform:translateY(18px)}
+.ai-evidence-numbers{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px;color:#fff}
+.ai-evidence-numbers p{border-top:1px solid #50605e;padding-top:12px}
+.ai-evidence-numbers strong{display:block;color:var(--lime);font-size:25px;line-height:1.2}
+.ai-evidence-numbers span{display:block;font-size:12px;margin-top:6px;color:#d4dedd}
+.ai-evidence-board .showcase-more{color:#fff;padding:19px 20px 22px}
+.practice-section{background:#eef2ff;border-top:0}
+.content-card{box-shadow:7px 7px 0 var(--blue)}
+.operations-card{box-shadow:7px 7px 0 var(--ink)}
+.experience-section{padding-top:90px}
+.work-section{border-top:1px solid var(--line);padding-bottom:0}
+@media(max-width:760px){
+  .ai-evidence-grid{padding:0 14px;gap:10px}.ai-evidence-shot{height:145px}
+  .ai-evidence-numbers{gap:7px}.ai-evidence-numbers strong{font-size:20px}.ai-evidence-numbers span{font-size:11px;line-height:1.45}
+  .practice-section{margin-top:0}.experience-section{padding-top:58px}.work-section{padding-top:58px}
+}
