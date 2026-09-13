@@ -17,7 +17,9 @@ main{display:flex;flex-direction:column}
 .practice-section{background:#eef2ff;border-top:0}
 .content-card{box-shadow:7px 7px 0 var(--blue)}
 .operations-card{box-shadow:7px 7px 0 var(--ink)}
-.experience-section{padding-block:90px;background:#f4f7ff;box-shadow:0 0 0 100vmax #f4f7ff;clip-path:inset(0 -100vmax);border-block:1px solid #dce4ff}
+.experience-section{padding-block:72px;background:#f4f7ff;box-shadow:0 0 0 100vmax #f4f7ff;clip-path:inset(0 -100vmax);border-block:1px solid #dce4ff}
+.experience-section .section-heading{margin-bottom:34px}
+.experience-section .section-heading h2{margin-top:0}
 .experience-list{border-top:0;display:grid;gap:12px}
 .experience-item{background:#fff;border:1px solid #cad5f7;border-radius:16px;padding-inline:22px}
 .experience-item summary{padding-block:23px}
@@ -31,5 +33,5 @@ main{display:flex;flex-direction:column}
 @media(max-width:760px){
   .ai-evidence-grid{grid-template-columns:1fr;padding:0 14px;gap:12px}.ai-evidence-shot{height:220px}.ai-use-proof{height:auto;min-height:215px;padding:16px}.ai-use-proof strong{font-size:21px;margin-bottom:10px}.ai-use-proof small{font-size:12px;line-height:1.5;margin-top:8px}.ai-evidence-numbers{grid-column:1}
   .ai-evidence-numbers{gap:7px}.ai-evidence-numbers strong{font-size:20px}.ai-evidence-numbers span{font-size:11px;line-height:1.45}
-  .practice-section{margin-top:0}.experience-section{padding-block:58px}.experience-item{padding-inline:16px}.work-section{padding-top:68px}.project-heading h2{font-size:54px;letter-spacing:-3px}.project-heading>p{font-size:15px}#glim,#visit,#lujian,#goodtime{margin-top:42px}
+  .practice-section{margin-top:0}.experience-section{padding-block:48px}.experience-section .section-heading{margin-bottom:24px}.experience-item{padding-inline:16px}.work-section{padding-top:68px}.project-heading h2{font-size:54px;letter-spacing:-3px}.project-heading>p{font-size:15px}#glim,#visit,#lujian,#goodtime{margin-top:42px}
 }
